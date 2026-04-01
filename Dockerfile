@@ -5,9 +5,7 @@ RUN npm ci
 
 FROM deps AS build
 WORKDIR /app
-ARG GEMINI_API_KEY=""
 ARG APP_URL=""
-ENV GEMINI_API_KEY=${GEMINI_API_KEY}
 ENV APP_URL=${APP_URL}
 COPY . .
 RUN npm run build
