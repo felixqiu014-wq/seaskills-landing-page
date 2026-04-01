@@ -1,0 +1,11 @@
+.git
+.env
+.env.*
+.sealos
+node_modules
+dist
+coverage
+*.log
+.DS_Store
+.vscode
+.idea

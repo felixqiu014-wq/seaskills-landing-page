@@ -1,0 +1,43 @@
+{
+  "generated_at": "2026-03-31T13:35:30Z",
+  "project": {
+    "work_dir": "/Users/felixqiu/Documents/New project/topo-clusters-manager",
+    "github_url": "https://github.com/felixqiu014-wq/topo-clusters-manager.git",
+    "repo_name": "topo-clusters-manager",
+    "branch": "main"
+  },
+  "assessment": {
+    "score": 7,
+    "verdict": "Good",
+    "language": "node",
+    "framework": [
+      "react",
+      "vite"
+    ],
+    "package_manager": "npm",
+    "ports": [
+      8080
+    ],
+    "has_dockerfile": true,
+    "databases": [],
+    "env_vars": [
+      {
+        "name": "GEMINI_API_KEY",
+        "classification": "required"
+      },
+      {
+        "name": "APP_URL",
+        "classification": "auto"
+      }
+    ],
+    "image_ref": "ghcr.io/felixqiu014-wq/topo-clusters-manager:20260331-220400"
+  },
+  "signals": {
+    "has_http_server": true,
+    "has_env_example": true,
+    "is_monorepo": false,
+    "dockerfile_paths": [
+      "Dockerfile"
+    ]
+  }
+}

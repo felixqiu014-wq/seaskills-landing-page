@@ -1,0 +1,5 @@
+{
+  "name": "Cluster Topology Manager",
+  "description": "A professional UI for managing Kubernetes cluster physical topology, mapping nodes to zones and regions.",
+  "requestFramePermissions": []
+}
